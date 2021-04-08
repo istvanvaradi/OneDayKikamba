@@ -1,0 +1,18 @@
+.mid-section {
+  margin-top: 10%;
+  width: 100vw;
+  height: 40vh;
+  background: linear-gradient(rgba(228, 155, 38, 0.6), rgba(230, 107, 6, 0.6)),
+    url("../Pictures/midleSection.webp");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.mid-section h1 {
+  font-size: 5vh;
+  color: whitesmoke;
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.icon {
+  color: #df7142;
+  margin-top: 3rem;
+}
+:hover.icon {
+  color: turquoise;
+}
+
+.iconsdiv {
+  overflow: hidden;
+
+  align-items: center;
+}

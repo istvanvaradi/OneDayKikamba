@@ -1,0 +1,12 @@
+.card-img-top {
+  height: 18rem;
+}
+.card {
+  border: none;
+}
+
+.container-fluid {
+  margin-top: 5%;
+  position: relative;
+  
+}
