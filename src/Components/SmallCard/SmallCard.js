@@ -7,7 +7,7 @@ import image3 from "../Pictures/Games.JPG";
 import Styles from "./SmallCard.css";
 function SmallCard() {
   return (
-    <div className="d-flex justify-content-around ">
+    <div className="d-flex justify-content-around xrt">
       <div className="row">
         <div className="col-sm-6 col-md-3 d-flex justify-content-around">
           <Card className="card" style={{ width: "12rem" }}>

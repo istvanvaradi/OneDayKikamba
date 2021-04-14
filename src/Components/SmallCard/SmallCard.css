@@ -3,10 +3,14 @@
 }
 .card {
   border: none;
+  overflow: hidden;
 }
 
 .container-fluid {
   margin-top: 5%;
   position: relative;
-  
+}
+
+.xrt {
+  overflow: hidden;
 }

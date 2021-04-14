@@ -13,7 +13,11 @@ function Cards(props) {
         together!
       </h1>
       <p className="text-center">
-        <Button variant="warning" className="warning text-center">
+        <Button
+          variant="warning"
+          href="#donate"
+          className="warning text-center"
+        >
           <Spinner
             as="span"
             animation="grow"

@@ -4,7 +4,7 @@ import DonateIMG from "../Pictures/donate.icon.webp";
 
 function Donate() {
   return (
-    <div className="row text-center m-5 ">
+    <div id="donate" className="row text-center m-5 ">
       <div className="col-sm-6 col-xs-12">
         <h3>Bank Account </h3>
         One Day Kikamba
