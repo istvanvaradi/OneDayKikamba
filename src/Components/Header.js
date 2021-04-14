@@ -15,10 +15,10 @@ function Header() {
             <Nav.Link className="mr-auto active " href="#about">
               About us
             </Nav.Link>
-            <Nav.Link className="mr-auto active" href="#pricing">
+            <Nav.Link className="mr-auto active" href="#donate">
               Donate
             </Nav.Link>
-            <Nav.Link className="mr-auto active" href="#deets">
+            <Nav.Link className="mr-auto active" href="#mail">
               Contact Us
             </Nav.Link>
           </Nav>

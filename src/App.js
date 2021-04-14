@@ -8,7 +8,7 @@ import MidPart from "./Components/MidPart/MidPart";
 import SmallCard from "./Components/SmallCard/SmallCard";
 import Intro from "./Components/Intro/Intro";
 import Donate from "./Components/Donate/Donate.js";
-import Footer from "./Components/Footer/Footer";
+import Footer from ".//Components/Footer/Footer";
 function App() {
   return (
     <div>

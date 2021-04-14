@@ -6,13 +6,11 @@ function About() {
       <hr></hr>
       <h1 className="text-center "> What we do?</h1>
       <p>
-        Vestibulum et bibendum dui. Etiam dolor magna, porttitor ornare
-        elementum eu, semper a quam. Aliquam efficitur, est quis lobortis
-        auctor, dui ex imperdiet turpis, non viverra nibh est vitae lectus.
-        Pellentesque fringilla dapibus nibh. Integer eu convallis dui, in
-        vestibulum sem. Proin vitae nulla placerat, elementum erat et, porttitor
-        diam. Integer pellentesque ultrices est ut lacinia. Curabitur consequat
-        porta bibendum. Duis cursus sodales sem, vel rutrum dui gravida at.
+        This association aims to help nomads, children, and adults of the region
+        of Mombasa and more particularly to those of the village of Kikamba in a
+        spirit of union, independent of all political movements and/or
+        denominational. Our goal now, after food, clean water, and clothes, is
+        to be able to provide them with education.
       </p>
       <hr></hr>
     </div>

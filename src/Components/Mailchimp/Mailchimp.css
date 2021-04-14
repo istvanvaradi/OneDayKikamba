@@ -1,0 +1,21 @@
+.chimpClass {
+  font-family: "Courier New", Courier;
+}
+
+.chimpClass input {
+  width: 100%;
+  margin: 10px;
+  display: block;
+  height: 2.23rem;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(218, 181, 16);
+}
+.chimpClass button {
+  margin: 10px;
+  border-radius: 10px;
+  height: 30px;
+  align-self: center;
+  margin-bottom: 25px;
+  width: 60%;
+}

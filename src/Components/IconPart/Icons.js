@@ -1,12 +1,11 @@
 import React from "react";
-import { Container, Row, Columns } from "react-bootstrap";
 import { IoMdSchool } from "react-icons/io";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { IoFastFoodSharp } from "react-icons/io5";
 import Style from "./Icons.css";
 function Icons(props) {
   return (
-    <div className="d-flex justify-content-evenly row">
+    <div className="d-flex justify-content-evenly row ikonok">
       <div className="col-md-4 text-center ">
         {" "}
         <IoMdSchool className="icon" size="5em" /> <h3>Education</h3>
@@ -25,8 +24,7 @@ function Icons(props) {
         <IoFastFoodSharp className="icon" size="5em" />
         <h3>Food&Water</h3>
         <p className="text-center">
-          We helped to build a will, that makes people pf Kikamba being able to
-          drink clear water.
+          We helped to build a will, that gave water to local people of Kikamba.
         </p>
       </div>
     </div>
