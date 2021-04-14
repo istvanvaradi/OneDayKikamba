@@ -1,5 +1,5 @@
 import React from "react-bootstrap";
-import styles from "./MidPart.css";
+import "./MidPart.css";
 
 function MidPart() {
   return (

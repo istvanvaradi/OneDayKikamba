@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdSchool } from "react-icons/io";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { IoFastFoodSharp } from "react-icons/io5";
-import Style from "./Icons.css";
+import "./Icons.css";
 function Icons(props) {
   return (
     <div className="d-flex justify-content-evenly row ikonok">

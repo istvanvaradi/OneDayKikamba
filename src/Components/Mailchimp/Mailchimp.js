@@ -1,6 +1,6 @@
 import React from "react";
 import Mailchimp from "react-mailchimp-form";
-import Styles from "./Mailchimp.css";
+import "./Mailchimp.css";
 export default function Signup() {
   return (
     <div id="mail">
@@ -31,7 +31,6 @@ export default function Signup() {
           duplicate: "You already have subscribed",
           button: "Sign",
         }}
-        className="chimpClass"
       />
     </div>
   );

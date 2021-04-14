@@ -26,12 +26,16 @@ const Intro = () => {
           </p>
         </div>
         <div className="col-sm-6 col-xs-12">
-          <img src={Cindy} className="img-fluid rounded shadow-lg " />
+          <img
+            src={Cindy}
+            alt="Cindy"
+            className="img-fluid rounded shadow-lg "
+          />
         </div>
       </Row>
       <Row className=" text-center">
         <div className="col-sm-6 col-xs-12">
-          <img src={Lara} className="img-fluid rounded shadow-lg " />
+          <img src={Lara} alt="Lara" className="img-fluid rounded shadow-lg " />
         </div>
         <div className="col-sm-6  col-xs-12">
           <h1 className="text-center m-5">

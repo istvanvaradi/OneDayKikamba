@@ -16,6 +16,7 @@ export default function Footer() {
           <div className="row">
             <div className="text-center col-sm-6 col-xs-12">
               <img
+                alt="logo"
                 className="img-fluid"
                 src={logo}
                 style={{ height: "160px" }}
