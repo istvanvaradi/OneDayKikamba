@@ -26,7 +26,7 @@ body {
   color: #df7142;
   overflow: hidden;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 724px) {
   .Jumbotron h1 {
     font-size: 6vh;
     width: fit-content;
@@ -39,12 +39,14 @@ body {
 .warning {
   vertical-align: middle;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 724px) {
   .warning {
     vertical-align: middle;
   }
 }
-
+.warning {
+  width: 15em;
+}
 /* NAVBAR */
 
 /* Horizontal rule */

@@ -1,12 +1,13 @@
 import React from "react";
 import Mailchimp from "react-mailchimp-form";
 import "./Mailchimp.css";
+
 export default function Signup() {
   return (
     <div className="container text-center" id="mail">
       <Mailchimp
         className="chimpClass"
-        action="https://gmail.us1.list-manage.com/subscribe/post?u=000b00127b20cf333b72a70d6&amp;id=f222248094"
+        action={process.env.REACT_APP_MAILCHIMP_KEY}
         method="post"
         fields={[
           {
@@ -29,7 +30,7 @@ export default function Signup() {
           error: "An unexpected internal error has occurred.",
           empty: "It was not an email/typo",
           duplicate: "You already have subscribed",
-          button: "Sign",
+          button: "Sign up!",
         }}
       />
     </div>

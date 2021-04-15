@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Jumbotron, Spinner } from "react-bootstrap";
-import "./style.css";
+import "./Hero.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -10,7 +10,7 @@ function Cards(props) {
   return (
     <Jumbotron className="Jumbotron">
       <h1 className="text-center">
-        <span data-aos="fade-up-left">Let's make a better,</span>
+        <span data-aos="fade-up-left">Let's make a better, </span>
         <span className="text-center" style={{ color: "white" }}>
           more accessable world
         </span>
@@ -21,7 +21,7 @@ function Cards(props) {
           data-aos="fade-left"
           variant="warning"
           href="#donate"
-          className="warning text-center"
+          className="warning  text-center"
         >
           <Spinner
             as="span"
