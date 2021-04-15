@@ -46,26 +46,13 @@ body {
 }
 
 /* NAVBAR */
-.navbar {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  height: 5%;
-}
-
-.navbar-dark .navbar-nav .nav-link.active {
-  font-size: 1.3rem;
-  color: #ffc107;
-}
-.navbar-toggler-icon {
-  background-color: rgb(43, 39, 39);
-  overflow: hidden;
-}
 
 /* Horizontal rule */
 
 hr {
-  border-bottom: 4px dotted tomato;
+  border-bottom: 4px dotted #df7142;
   opacity: 0.15;
   width: 10rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }

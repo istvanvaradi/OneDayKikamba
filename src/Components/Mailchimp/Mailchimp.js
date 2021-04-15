@@ -3,7 +3,7 @@ import Mailchimp from "react-mailchimp-form";
 import "./Mailchimp.css";
 export default function Signup() {
   return (
-    <div id="mail">
+    <div className="container text-center" id="mail">
       <Mailchimp
         className="chimpClass"
         action="https://gmail.us1.list-manage.com/subscribe/post?u=000b00127b20cf333b72a70d6&amp;id=f222248094"
@@ -11,13 +11,13 @@ export default function Signup() {
         fields={[
           {
             name: "EMAIL",
-            placeholder: "Email",
+            placeholder: "E-mail",
             type: "email",
             required: true,
           },
           {
             name: "FNAME",
-            placeholder: "name",
+            placeholder: "Name",
             type: "text",
             required: true,
           },

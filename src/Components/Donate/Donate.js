@@ -4,9 +4,9 @@ import DonateIMG from "../Pictures/donate.icon.webp";
 
 function Donate() {
   return (
-    <div id="donate" className="row text-center m-5 ">
+    <div id="donate" className="row text-center ">
       <div className="col-sm-6 col-xs-12">
-        <h3>Bank Account </h3>
+        <h2 style={{ color: "#df7142" }}>For Regular Bank transfers</h2>
         One Day Kikamba
         <br /> 1630 Bulle <br />
         Switzerland <br />
@@ -23,9 +23,12 @@ function Donate() {
           method="post"
           target="_top"
         >
-          <p>Click the PayPal icon to pay directly</p>
+          <h2 className="text-center mt-3" style={{ color: "#df7142" }}>
+            Or Click the PayPal image
+          </h2>
           <input type="hidden" name="hosted_button_id" value="U5EMFE7QR6RTL" />
           <input
+            data-aos="slide-left"
             type="image"
             src={DonateIMG}
             border="0"
@@ -43,6 +46,20 @@ function Donate() {
             height="1"
           />
         </form>
+      </div>
+      <div className="container mt-5 mb-5">
+        <div className="row">
+          <div className="col-xl-12">
+            <h2 className="text-center">
+              In case of any non-money donation idea send us an e-mail!
+            </h2>
+          </div>
+          <div className="col-xl-12 mt-5">
+            <a className="btncontact" href="mailto:onedaykikamba@gmail.com">
+              E-mail Us!
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

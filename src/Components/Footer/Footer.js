@@ -29,7 +29,9 @@ export default function Footer() {
               style={{ marginTop: "10rem" }}
               className="col-sm-6 col-xs-12 item-align-center"
             >
-              <p className="text-center">Find us on Facebok or Instagram!</p>
+              <h5 style={{ color: "#df7142" }} className="text-center">
+                Find us on Facebok or Instagram!
+              </h5>
               <a href="https://www.facebook.com/One-Day-Kikamba-2354147188201977/">
                 <i className="icon">
                   <FiFacebook />{" "}
@@ -42,7 +44,7 @@ export default function Footer() {
                 </i>
               </a>
               <p className="text-center ">Or e-mail us!</p>
-              <i>
+              <i className="text-center py-0">
                 <HiOutlineMailOpen /> onedaykikamba@gmail.com
               </i>
             </div>

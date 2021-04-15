@@ -4,6 +4,7 @@
 .card {
   border: none;
   overflow: hidden;
+  background-color: transparent;
 }
 
 .container-fluid {

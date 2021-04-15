@@ -4,7 +4,10 @@ function About() {
   return (
     <div id="about" className="container d-block text-center">
       <hr></hr>
-      <h1 className="text-center "> What we do?</h1>
+      <h1 className="text-center " style={{ color: "#df7142" }}>
+        {" "}
+        What we do?
+      </h1>
       <p>
         This association aims to help nomads, children, and adults of the region
         of Mombasa and more particularly to those of the village of Kikamba in a

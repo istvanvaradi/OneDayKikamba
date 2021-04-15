@@ -1,1 +1,16 @@
+.btncontact {
+  background-color: #df7142;
+  border-radius: 10px;
+  color: white;
+  padding: 1.3rem;
+  margin-bottom: 200px;
+  text-decoration: none;
+  text-align: center;
+}
 
+.h2 {
+  size: 8rem;
+}
+.mobile-margin {
+  margin-top: 0px;
+}

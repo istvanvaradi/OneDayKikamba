@@ -17,3 +17,10 @@
 .p {
   color: orangered;
 }
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 3rem;
+  padding: 10px;
+}

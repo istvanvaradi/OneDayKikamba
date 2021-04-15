@@ -6,7 +6,7 @@ import "./Icons.css";
 function Icons(props) {
   return (
     <div className="d-flex justify-content-evenly row ikonok">
-      <div className="col-md-4 text-center ">
+      <div className="col-md-4 text-center " data-aos="slide-left">
         {" "}
         <IoMdSchool className="icon" size="5em" /> <h3>Education</h3>
         <p>We try to provide quality education for young people of Kikamba.</p>
@@ -20,7 +20,7 @@ function Icons(props) {
           properties.
         </p>
       </div>
-      <div className="col-md-4 text-center">
+      <div className="col-md-4 text-center" data-aos="slide-right">
         <IoFastFoodSharp className="icon" size="5em" />
         <h3>Food&Water</h3>
         <p className="text-center">

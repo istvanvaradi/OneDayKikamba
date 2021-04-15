@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./Components/About";
 import Cards from "./Components/Card/Cards.js";
 import Icons from "./Components/IconPart/Icons";
-import Header from "./Components/Header";
+import Navbar from "./Components/Navbar/Navbar";
 import MidPart from "./Components/MidPart/MidPart";
 import SmallCard from "./Components/SmallCard/SmallCard";
 import Intro from "./Components/Intro/Intro";
@@ -12,7 +12,7 @@ import Footer from ".//Components/Footer/Footer";
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Cards />
       <About />
       <Icons />
