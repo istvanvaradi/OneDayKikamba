@@ -2,12 +2,15 @@ import React from "react";
 import Mailchimp from "react-mailchimp-form";
 import "./Mailchimp.css";
 
+console.log(process.env);
+const actionKey = process.env.REACT_APP_MAILCHIMP_KEY;
+
 export default function Signup() {
   return (
     <div className="container text-center" id="mail">
       <Mailchimp
         className="chimpClass"
-        action={process.env.REACT_APP_MAILCHIMP_KEY}
+        action={actionKey}
         method="post"
         fields={[
           {
