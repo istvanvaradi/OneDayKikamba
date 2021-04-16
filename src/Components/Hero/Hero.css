@@ -17,14 +17,16 @@ body {
   overflow: hidden;
 }
 .Jumbotron h1 {
-  font-size: 8vh;
-  margin-top: 10%;
-
+  font-size: 6vh;
   width: 50%;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 0%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #df7142;
   overflow: hidden;
+  vertical-align: middle;
 }
 @media screen and (max-width: 724px) {
   .Jumbotron h1 {
@@ -38,14 +40,28 @@ body {
 
 .warning {
   vertical-align: middle;
+  margin-left: -50%;
 }
 @media screen and (max-width: 724px) {
   .warning {
     vertical-align: middle;
+    margin-left: 0;
   }
 }
 .warning {
   width: 15em;
+}
+
+.mylogo {
+  float: right;
+  width: 15%;
+  position: absolute;
+  margin-left: 80%;
+}
+@media screen and (max-width: 724px) {
+  .mylogo {
+    margin-top: 10%;
+  }
 }
 /* NAVBAR */
 

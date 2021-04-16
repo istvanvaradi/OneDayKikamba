@@ -9,7 +9,9 @@ function Icons(props) {
       <div className="col-md-4 text-center " data-aos="slide-left">
         {" "}
         <IoMdSchool className="icon" size="5em" /> <h3>Education</h3>
-        <p>We try to provide quality education for young people of Kikamba.</p>
+        <p>
+          We try to provide quality education for the young people of Kikamba.
+        </p>
       </div>
       <div className="col-md-4 text-center">
         <FaRegMoneyBillAlt className="icon" size="5em" />
@@ -24,7 +26,8 @@ function Icons(props) {
         <IoFastFoodSharp className="icon" size="5em" />
         <h3>Food&Water</h3>
         <p className="text-center">
-          We helped to build a will, that gave water to local people of Kikamba.
+          We helped to build a will, that gave water to the local people of
+          Kikamba.
         </p>
       </div>
     </div>

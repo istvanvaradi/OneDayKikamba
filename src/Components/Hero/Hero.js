@@ -3,16 +3,17 @@ import { Button, Jumbotron, Spinner } from "react-bootstrap";
 import "./Hero.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import Logo from "../Pictures/kikambalogo_sized.png";
 function Cards(props) {
   Aos.init({ duration: 2000 });
 
   return (
     <Jumbotron className="Jumbotron">
+      <img alt="logo" className="mylogo" src={Logo}></img>
       <h1 className="text-center">
         <span data-aos="fade-up-left">Let's make a better, </span>
         <span className="text-center" style={{ color: "white" }}>
-          more accessable world
+          more accessible world
         </span>
         <span data-aos="fade-up-left"> together!</span>
       </h1>

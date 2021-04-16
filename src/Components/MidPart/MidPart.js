@@ -7,7 +7,7 @@ function MidPart() {
   return (
     <div className="mid-section " data-aos="flip-up">
       <h1 className=" text-center">
-        We cant help everybody, but everyone can help somebody!
+        We can't help everybody, but everyone can help somebody!
       </h1>
     </div>
   );

@@ -4,9 +4,9 @@ function About() {
   return (
     <div id="about" className="container d-block text-center">
       <hr></hr>
-      <h1 className="text-center " style={{ color: "#df7142" }}>
+      <h1 className="text-center m-5" style={{ color: "#df7142" }}>
         {" "}
-        What we do?
+        What we do at One Day Kikamba?
       </h1>
       <p>
         This association aims to help nomads, children, and adults of the region

@@ -21,7 +21,7 @@ export default function Footer() {
                 src={logo}
                 style={{ height: "160px" }}
               ></img>
-              <h6 className="text">Signup to our newsletter</h6>
+              <h6 className="text">Sign up to our newsletter!</h6>
               <Mailchimp />
             </div>
 

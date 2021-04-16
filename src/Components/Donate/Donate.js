@@ -37,14 +37,6 @@ function Donate() {
             title="PayPal - The safer, easier way to pay online!"
             alt="Donate with PayPal button"
           />
-          <img
-            alt=""
-            className=""
-            border="0"
-            src="https://www.paypal.com/en_CH/i/scr/pixel.gif"
-            width=""
-            height="1"
-          />
         </form>
       </div>
       <div className="container mt-5 mb-5">
