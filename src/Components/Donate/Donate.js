@@ -6,24 +6,25 @@ function Donate() {
   return (
     <div id="donate" className="row text-center ">
       <div className="col-sm-6 col-xs-12">
-        <h2 style={{ color: "#df7142" }}>For Regular Bank transfers</h2>
+        <h2 className="text mt-5" style={{ color: "#df7142" }}>
+          For Regular Bank transfers
+        </h2>
         One Day Kikamba
         <br /> 1630 Bulle <br />
         Switzerland <br />
-        <br />
         CH97 0900 0000 1527 2878 0 <br />
         Postfinance SA Mingerstrasse 20
         <br /> 3030 Bern
         <br /> Switzerland
       </div>
-      <div className="col-sm-6 col-xs-12">
+      <div className="col-sm-6 col-xs-12 mt-5">
         <form
           className="payform"
           action="https://www.paypal.com/donate"
           method="post"
           target="_top"
         >
-          <h2 className="text-center mt-3" style={{ color: "#df7142" }}>
+          <h2 className="text-center mt-1.5" style={{ color: "#df7142" }}>
             Or Click the PayPal image
           </h2>
           <input type="hidden" name="hosted_button_id" value="U5EMFE7QR6RTL" />
@@ -32,7 +33,7 @@ function Donate() {
             type="image"
             src={DonateIMG}
             border="0"
-            className="img-fluid py-0"
+            className="img-fluid py-0 mt-0"
             name="submit"
             title="PayPal - The safer, easier way to pay online!"
             alt="Donate with PayPal button"

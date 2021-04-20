@@ -10,6 +10,8 @@
   background-size: cover;
   overflow: hidden;
   position: relative;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
 .mid-section h1 {

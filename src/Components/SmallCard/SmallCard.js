@@ -9,7 +9,7 @@ function SmallCard() {
   return (
     <div>
       <h1 className="text-center py-5" style={{ color: "#df7142" }}>
-        You can help them to become heroes in school!{" "}
+        You can help them to become heroes at school!{" "}
       </h1>
       <div className="d-flex justify-content-around m-5">
         <div className="row">

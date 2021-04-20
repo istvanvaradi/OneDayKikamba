@@ -3,14 +3,14 @@
 }
 
 .chimpClass input {
-  color: rgb(218, 181, 16);
+  color: #df7142;
   width: 100%;
   margin: 10px;
   display: block;
   height: 2.23rem;
   border: none;
   background: transparent;
-  border-bottom: 2px solid rgb(218, 181, 16);
+  border-bottom: 2px solid #df7142;
   font-family: Monserrat;
 }
 .chimpClass button {
@@ -21,6 +21,6 @@
   margin-bottom: 25px;
   width: 60%;
   border: none;
-  background-color: rgb(218, 181, 16);
+  background-color: #df7142;
   font-family: "Montserrat", sans-serif;
 }

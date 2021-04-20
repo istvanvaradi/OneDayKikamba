@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 const Intro = () => {
   Aos.init({ duration: 2000 });
   return (
-    <div className="conteiner  tex-center intro-section">
+    <div id="intro" className="conteiner  tex-center intro-section">
       <Row className=" text-center cindy">
         <div className="col-sm-6  col-xs-12">
           <h1 className="text-center ">
@@ -45,9 +45,9 @@ const Intro = () => {
           <h1>Lara</h1>
           <p data-aos="fade-up" className="text-center ">
             Passionate about travel since I was a child, my adventure in Kenya
-            deeply moved me. I am also the mother of a little girl named Inaya.
-            my motto: “We cannot change the world but we can change something in
-            the world."
+            moved me. I am also the mother of a little girl named Inaya. My
+            motivation : “We cannot change the world but we can change something
+            in the world."
           </p>
         </div>
       </Row>

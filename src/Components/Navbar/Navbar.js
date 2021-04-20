@@ -8,7 +8,6 @@ function Header() {
     <Navbar
       collapseOnSelect
       className="fixed-top"
-      bg="dark"
       expand="sm"
       variant="dark"
       style={{ opacity: "0.9" }}
