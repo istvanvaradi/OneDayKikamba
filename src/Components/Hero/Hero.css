@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,700&display=swap");
 body {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  height: auto;
 }
 
 .Jumbotron {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../Pictures/background_kikamba.jpg");
   background-size: cover;
@@ -18,35 +20,41 @@ body {
 .Jumbotron h1 {
   font-size: 8vh;
   margin-top: 10%;
-  text-align: left;
-  margin-left: 2rem;
-  width: 50%;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #df7142;
   overflow: hidden;
 }
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 1024px) {
   .Jumbotron h1 {
-    font-size: 6vh;
-    width: fit-content;
-    text-align: center;
+    font-size: 8vh;
+    text-align: left;
     margin-top: 40%;
     margin-left: 0%;
   }
 }
 
-.btn-lg {
-  margin-left: 2rem;
-  width: 15em;
-  color: black;
-  font-weight: bolder;
-  font-family: Montserrat;
-  outline: 0px;
-}
-@media screen and (max-width: 524px) {
-  .btn-lg {
+@media (orientation: landscape) {
+  .Jumbotron h1 {
+    font-size: 6vh;
+    width: 60%;
+    text-align: left;
+    margin-top: 20%;
     margin-left: 0%;
+    overflow: hidden;
   }
+}
+
+.warning {
+  vertical-align: middle;
+}
+@media screen and (max-width: 724px) {
+  .warning {
+    vertical-align: middle;
+  }
+}
+.warning {
+  width: 15em;
 }
 /* NAVBAR */
 
