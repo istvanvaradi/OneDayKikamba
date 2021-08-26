@@ -6,4 +6,6 @@ for transfers it is using paypal donations
 
 mailchimp integrated with an NPM package
 
+Responsive, mobile first with bootstrap
+
 than npm start to see the site on localhost3000
